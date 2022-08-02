@@ -1,0 +1,119 @@
+body{
+	font-family: 'Courier Prime', monospace;
+}
+.bg-color {
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(../images/shivam_bg_2.jpg);
+	background-repeat: no-repeat;
+}
+.bg-black{
+	background-color: yellow;
+}
+
+.align-center {
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.small-12 {
+	width: 100%
+}
+
+.column,
+.columns {
+	width: 100%;
+	float: left;
+	padding-left: .625rem;
+	padding-right: .625rem
+}
+
+.column:last-child:not(:first-child),
+.columns:last-child:not(:first-child) {
+	float: right
+}
+
+.column.end:last-child:last-child,
+.end.columns:last-child:last-child {
+	float: left
+}
+
+.column.row.row,
+.row.row.columns {
+	float: none
+}
+
+.page-padding {
+	min-height: 100vh;
+	padding: 50px 0;
+	width: 100%
+}
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+@media only screen and (min-width: 48.063em) {
+	.page-padding {
+		padding: 80px 0
+	}
+
+	.page-padding.flex {
+		display: flex
+	}
+}
+
+@media only screen and (min-width: 64.063em) {
+	.page-padding {
+		padding: 110px 0
+	}
+}
+
+.page-padding.max {
+	max-height: 100vh
+}
+
+
+@media screen and (min-width: 40.0625em) {
+	.small-12 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+
+	}
+
+	.medium-offset-2 {
+		margin-left: 16.66667%
+	}
+
+	.medium-7 {
+		width: 58.33333%
+	}
+}
+
+@media screen and (min-width: 64.0625em) {
+	.large-6 {
+		width: 50%
+	}
+
+	.large-6 {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%
+	}
+}
+
+.icon-color {
+	color: #fff;
+	font-size:18px;
+}
+
+.icon-color:hover {
+	color: #adb5bd;
+    transition: all .5s ease-in-out 0s;
+}
