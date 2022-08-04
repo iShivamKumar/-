@@ -49,7 +49,6 @@ body{
 	width: 100%
 }
 .zoom {
-  padding: 50px;
   transition: transform .2s;
   margin: 0 auto;
 }
